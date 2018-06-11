@@ -9,3 +9,4 @@ end
      adverb = my_method(+ " adverb")
     
     puts "Do you #{verb} your #{adjective} #{noun} #{adverb}? Thats hilarious!"
+
