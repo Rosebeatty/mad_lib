@@ -4,7 +4,7 @@ while play_again == true
   def ask_user(word)
      puts "Enter a" + word
   return gets.chomp
-end
+  end
     
 verb = ask_user(" verb")
 adjective = ask_user(" adjective")
