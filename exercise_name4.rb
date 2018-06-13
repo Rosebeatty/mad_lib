@@ -1,21 +1,22 @@
-more = true
-while more==true
+play_again = true
 
-def my_method(word)
-    puts "Enter a" + word
-    return gets.chomp
+while play_again == true
+  def ask_user(word)
+     puts "Enter a" + word
+  return gets.chomp
 end
-     verb = my_method(" verb")
-     adjective = my_method(" adjective")
-     noun = my_method(" noun")
-     adverb = my_method(" adverb")
     
-    puts "Do you #{verb} your #{adjective} #{noun} #{adverb}? Thats hilarious!"
-
-
-puts "Would you like to play again? Answer with yes or no"
+verb = ask_user(" verb")
+adjective = ask_user(" adjective")
+noun = ask_user(" noun")
+adverb = ask_user(" adverb")
+    
+puts "Do you #{verb} your #{adjective} #{noun} #{adverb}? Thats hilarious!"
+   
+puts "Would you like to play again? Answer with yes or no" 
 a = gets.chomp
-if a!="yes"
-    more = false
+  if a!="yes"
+     play_again = false 
   end
 end
+
