@@ -14,8 +14,8 @@ adverb = ask_user(" adverb")
 puts "Do you #{verb} your #{adjective} #{noun} #{adverb}? Thats hilarious!"
    
 puts "Would you like to play again? Answer with yes or no" 
-a = gets.chomp
-  if a!="yes"
+response = gets.chomp
+  if response!="yes"
      play_again = false 
   end
 end
